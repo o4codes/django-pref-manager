@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-pref-manager"
+version = "0.1.0"
+description = "Allows for setting and live fetching of application preferences"
+authors = ["o4codes <oforkansi.shadrach@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2.5"
+pydantic = "^2.4.2"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
